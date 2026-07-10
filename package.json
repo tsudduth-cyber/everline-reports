@@ -1,0 +1,16 @@
+{
+  "name": "lres-reports",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "NODE_OPTIONS=--max-old-space-size=3072 next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@upstash/redis": "1.34.3"
+  }
+}
